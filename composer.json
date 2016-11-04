@@ -1,14 +1,13 @@
 {
-  "name"  : "app-1",
-
+  "name" : "app/one",
   "repositories"  : [
     {
       "type"  : "vcs",
-      "url"   : "https://github.com/lulekpip/frame"
+      "url"   : "git@github.com:lulekpip/frame.git"
     }
   ],
 
   "require"  : {
-    "lulekpip/empty-project"  : "frame"
+    "lulekpip/frame"  : "dev-master"
   }
 }
